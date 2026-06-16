@@ -1,0 +1,145 @@
+<svg
+            width="180"
+            height="180"
+            viewBox="0 0 180 180"
+            xmlns="http://www.w3.org/2000/svg"
+            style="display: block"
+          >
+            <defs>
+              <clipPath id="circle-clip">
+                <circle cx="90" cy="90" r="86" />
+              </clipPath>
+            </defs>
+            <!-- Background -->
+            <circle cx="90" cy="90" r="86" fill="#1A2540" />
+            <!-- Jacket body -->
+            <ellipse
+              cx="90"
+              cy="158"
+              rx="54"
+              ry="38"
+              fill="#10182B"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Suit lapels -->
+            <polygon
+              points="90,128 70,108 66,158 90,148"
+              fill="#0D1625"
+              clip-path="url(#circle-clip)"
+            />
+            <polygon
+              points="90,128 110,108 114,158 90,148"
+              fill="#0D1625"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Shirt -->
+            <polygon
+              points="90,128 82,112 90,120 98,112"
+              fill="#F5F5F0"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Tie -->
+            <polygon
+              points="90,120 86,112 90,138 94,112"
+              fill="#F5C518"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Neck -->
+            <rect
+              x="80"
+              y="100"
+              width="20"
+              height="18"
+              rx="4"
+              fill="#C8956B"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Head -->
+            <ellipse
+              cx="90"
+              cy="82"
+              rx="30"
+              ry="34"
+              fill="#C8956B"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Hair -->
+            <ellipse
+              cx="90"
+              cy="54"
+              rx="30"
+              ry="16"
+              fill="#1A1008"
+              clip-path="url(#circle-clip)"
+            />
+            <rect
+              x="60"
+              y="54"
+              width="60"
+              height="14"
+              fill="#1A1008"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Side hair / ears -->
+            <ellipse
+              cx="61"
+              cy="82"
+              rx="5"
+              ry="7"
+              fill="#C8956B"
+              clip-path="url(#circle-clip)"
+            />
+            <ellipse
+              cx="119"
+              cy="82"
+              rx="5"
+              ry="7"
+              fill="#C8956B"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Eyes -->
+            <ellipse cx="78" cy="80" rx="5" ry="5.5" fill="#fff" />
+            <ellipse cx="102" cy="80" rx="5" ry="5.5" fill="#fff" />
+            <circle cx="79" cy="81" r="3" fill="#1A1008" />
+            <circle cx="103" cy="81" r="3" fill="#1A1008" />
+            <circle cx="80" cy="80" r="1" fill="#fff" />
+            <circle cx="104" cy="80" r="1" fill="#fff" />
+            <!-- Eyebrows -->
+            <path
+              d="M72 74 Q78 71 84 73"
+              stroke="#1A1008"
+              stroke-width="2.2"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <path
+              d="M96 73 Q102 71 108 74"
+              stroke="#1A1008"
+              stroke-width="2.2"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <!-- Nose -->
+            <path
+              d="M88 86 Q87 93 83 96 Q90 98 97 96 Q93 93 92 86"
+              fill="#B07A52"
+              clip-path="url(#circle-clip)"
+            />
+            <!-- Mouth — subtle smile -->
+            <path
+              d="M82 102 Q90 107 98 102"
+              stroke="#8B4E2A"
+              stroke-width="1.8"
+              fill="none"
+              stroke-linecap="round"
+            />
+            <!-- Ring border -->
+            <circle
+              cx="90"
+              cy="90"
+              r="86"
+              fill="none"
+              stroke="#F5C518"
+              stroke-width="3.5"
+            />
+          </svg>
