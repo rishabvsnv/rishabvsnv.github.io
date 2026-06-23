@@ -909,3 +909,11 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   *, .profile-photo-wrap::before { transition: none !important; animation: none !important; }
 }
+
+.hero-highlight {
+  margin-top: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.6;
+}
